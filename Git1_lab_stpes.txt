@@ -1,0 +1,29 @@
+apt update
+apt-get install git -y
+mkdir test
+cd test/
+git status
+git init
+pwd
+vi tetsfile -  add some code or line
+git status
+git add .
+git status
+git branch
+git commit -m "my first commit"
+git branch
+git status
+git remote -v
+git remote add origin https://github.com/mugunthanc/roobanrepo.git
+git push -u origin master
+git log --oneline
+vi tetsfile - add some more lines and sqve using :wq!
+
+git status
+git commit -am "second commit"
+git status
+git log --oneline
+git push -u origin master
+
+
+
